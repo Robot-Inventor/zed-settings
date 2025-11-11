@@ -58,5 +58,6 @@
   },
   "features": {
     "edit_prediction_provider": "copilot"
-  }
+  },
+  "tab_size": 4
 }
