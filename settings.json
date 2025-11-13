@@ -65,6 +65,7 @@
         "material-icon-theme": true,
         "moonlight": true,
         "toml": true,
-        "rainbow-csv": true
+        "rainbow-csv": true,
+        "cspell": true
     }
 }
