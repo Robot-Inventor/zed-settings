@@ -23,6 +23,7 @@
         "metrics": false
     },
     "agent": {
+        "notify_when_agent_waiting": "all_screens",
         "default_model": {
             "provider": "copilot_chat",
             "model": "gpt-5-mini"
