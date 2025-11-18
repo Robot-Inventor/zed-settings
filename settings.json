@@ -67,6 +67,7 @@
         "moonlight": true,
         "toml": true,
         "rainbow-csv": true,
-        "cspell": true
+        "cspell": true,
+        "markdownlint": true
     }
 }
