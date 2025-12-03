@@ -74,7 +74,10 @@
     },
     "languages": {
         "TypeScript": {
-            "language_servers": ["tsgo"]
+            "language_servers": ["!vtsls", "!typescript-language-server", "..."]
+        },
+        "TSX": {
+            "language_servers": ["!vtsls", "!typescript-language-server", "..."]
         }
     }
 }
