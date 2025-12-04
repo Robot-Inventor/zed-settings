@@ -7,6 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "agent_servers": {
+        "codex": {
+            "default_model": "gpt-5.1-codex/medium",
+            "default_mode": "full-access"
+        }
+    },
     "colorize_brackets": true,
     "inlay_hints": {
         "enabled": true
