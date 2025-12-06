@@ -80,7 +80,8 @@
         "cspell": true,
         "markdownlint": true,
         "csharp": true,
-        "tsgo": true
+        "tsgo": true,
+        "xml": true
     },
     "languages": {
         "TypeScript": {
