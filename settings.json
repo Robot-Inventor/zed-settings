@@ -89,6 +89,9 @@
         },
         "TSX": {
             "language_servers": ["!vtsls", "!typescript-language-server", "..."]
+        },
+        "JavaScript": {
+            "language_servers": ["!vtsls", "!typescript-language-server", "..."]
         }
     }
 }
