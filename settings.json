@@ -81,7 +81,8 @@
         "markdownlint": true,
         "csharp": true,
         "tsgo": true,
-        "xml": true
+        "xml": true,
+        "emmet": true
     },
     "languages": {
         "TypeScript": {
