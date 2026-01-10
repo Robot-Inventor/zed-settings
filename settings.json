@@ -7,53 +7,56 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "git_panel": {
+        "tree_view": true,
+    },
     "sticky_scroll": {
-        "enabled": true
+        "enabled": true,
     },
     "agent_servers": {
         "codex": {
             "default_model": "gpt-5.1-codex/medium",
-            "default_mode": "full-access"
-        }
+            "default_mode": "full-access",
+        },
     },
     "colorize_brackets": true,
     "inlay_hints": {
-        "enabled": true
+        "enabled": true,
     },
     "wsl_connections": [
         {
             "distro_name": "Ubuntu",
             "user": null,
-            "projects": []
-        }
+            "projects": [],
+        },
     ],
     "icon_theme": "Material Icon Theme",
     "telemetry": {
         "diagnostics": false,
-        "metrics": false
+        "metrics": false,
     },
     "agent": {
         "notify_when_agent_waiting": "all_screens",
         "default_model": {
             "provider": "copilot_chat",
-            "model": "gpt-5-mini"
+            "model": "gpt-5-mini",
         },
         "enabled": true,
         "button": true,
-        "model_parameters": []
+        "model_parameters": [],
     },
     "preview_tabs": {
-        "enabled": false
+        "enabled": false,
     },
     "minimap": {
-        "show": "auto"
+        "show": "auto",
     },
     "buffer_font_fallbacks": ["Noto Sans JP", "monospace"],
     "buffer_font_family": "Moralerspace Neon",
     "file_types": {
         "markdown": ["*.mdx"],
         "Processing": ["*.pde"],
-        "shellsession": ["*.shellsession"]
+        "shellsession": ["*.shellsession"],
     },
     "linked_edits": true,
     "show_whitespaces": "boundary",
@@ -65,10 +68,10 @@
     "theme": {
         "mode": "system",
         "light": "One Light",
-        "dark": "Moonlight"
+        "dark": "Moonlight",
     },
     "features": {
-        "edit_prediction_provider": "copilot"
+        "edit_prediction_provider": "copilot",
     },
     "tab_size": 4,
     "auto_install_extensions": {
@@ -82,17 +85,32 @@
         "csharp": true,
         "tsgo": true,
         "xml": true,
-        "emmet": true
+        "emmet": true,
     },
     "languages": {
         "TypeScript": {
-            "language_servers": ["!vtsls", "!typescript-language-server", "..."]
+            "language_servers": [
+                "!vtsls",
+                "!typescript-language-server",
+                "tsgo",
+                "...",
+            ],
         },
         "TSX": {
-            "language_servers": ["!vtsls", "!typescript-language-server", "..."]
+            "language_servers": [
+                "!vtsls",
+                "!typescript-language-server",
+                "tsgo",
+                "...",
+            ],
         },
         "JavaScript": {
-            "language_servers": ["!vtsls", "!typescript-language-server", "..."]
-        }
-    }
+            "language_servers": [
+                "!vtsls",
+                "!typescript-language-server",
+                "tsgo",
+                "...",
+            ],
+        },
+    },
 }
