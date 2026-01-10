@@ -86,6 +86,7 @@
         "tsgo": true,
         "xml": true,
         "emmet": true,
+        "processing": true,
     },
     "languages": {
         "TypeScript": {
