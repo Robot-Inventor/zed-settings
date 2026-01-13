@@ -23,11 +23,11 @@
     "bindings": {
       "shift-enter": [
         "action::Sequence",
-        ["editor::MoveToEndOfLine", ["workspace::SendKeystrokes", ";"]]
+        ["editor::MoveToEndOfLine", ["editor::HandleInput", ";"]]
       ],
       "alt-enter": [
         "action::Sequence",
-        ["editor::MoveToEndOfLine", ["workspace::SendKeystrokes", "; enter"]]
+        ["editor::MoveToEndOfLine", ["editor::HandleInput", ";"], "editor::Newline"]
       ]
     }
   }
