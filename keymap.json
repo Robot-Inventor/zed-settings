@@ -6,29 +6,26 @@
 // To see the default key bindings run `zed: open default keymap`
 // from the command palette.
 [
-  {
-    "context": "Workspace",
-    "bindings": {
-      // "shift shift": "file_finder::Toggle"
+    {
+        "context": "Workspace",
+        "bindings": {
+            // "shift shift": "file_finder::Toggle"
+        }
+    },
+    {
+        "context": "Editor && vim_mode == insert",
+        "bindings": {
+            // "j k": "vim::NormalBefore"
+        }
+    },
+    {
+        "context": "Editor && mode == full",
+        "bindings": {
+            "shift-enter": ["action::Sequence", ["editor::MoveToEndOfLine", ["editor::HandleInput", ";"]]],
+            "alt-enter": [
+                "action::Sequence",
+                ["editor::MoveToEndOfLine", ["editor::HandleInput", ";"], "editor::Newline"]
+            ]
+        }
     }
-  },
-  {
-    "context": "Editor && vim_mode == insert",
-    "bindings": {
-      // "j k": "vim::NormalBefore"
-    }
-  },
-  {
-    "context": "Editor && mode == full",
-    "bindings": {
-      "shift-enter": [
-        "action::Sequence",
-        ["editor::MoveToEndOfLine", ["editor::HandleInput", ";"]]
-      ],
-      "alt-enter": [
-        "action::Sequence",
-        ["editor::MoveToEndOfLine", ["editor::HandleInput", ";"], "editor::Newline"]
-      ]
-    }
-  }
 ]
