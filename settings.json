@@ -43,7 +43,8 @@
         },
         "enabled": true,
         "button": true,
-        "model_parameters": []
+        "model_parameters": [],
+        "show_turn_stats": true
     },
     "preview_tabs": {
         "enabled": false
