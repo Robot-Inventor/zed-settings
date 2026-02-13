@@ -11,6 +11,7 @@
         "provider": "copilot"
     },
     "project_panel": {
+        "hide_root": true,
         "bold_folder_labels": true
     },
     "git_panel": {
