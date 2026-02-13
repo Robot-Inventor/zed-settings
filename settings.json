@@ -93,6 +93,10 @@
         "processing": true
     },
     "languages": {
+        "Git Commit": {
+            "soft_wrap": "editor_width",
+            "format_on_save": "off"
+        },
         "Markdown": {
             "soft_wrap": "editor_width",
             "format_on_save": "on",
