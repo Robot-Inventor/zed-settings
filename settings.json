@@ -105,13 +105,13 @@
             "tab_size": 2
         },
         "TypeScript": {
-            "language_servers": ["!vtsls", "!typescript-language-server", "tsgo", "..."]
+            "language_servers": ["vtsls", "!typescript-language-server", "!tsgo", "..."]
         },
         "TSX": {
-            "language_servers": ["!vtsls", "!typescript-language-server", "tsgo", "..."]
+            "language_servers": ["vtsls", "!typescript-language-server", "!tsgo", "..."]
         },
         "JavaScript": {
-            "language_servers": ["!vtsls", "!typescript-language-server", "tsgo", "..."]
+            "language_servers": ["vtsls", "!typescript-language-server", "!tsgo", "..."]
         }
     }
 }
