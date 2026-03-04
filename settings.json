@@ -47,6 +47,7 @@
         "metrics": false
     },
     "agent": {
+        "play_sound_when_agent_done": true,
         "notify_when_agent_waiting": "all_screens",
         "default_model": {
             "provider": "copilot_chat",
