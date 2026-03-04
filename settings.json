@@ -22,6 +22,9 @@
         "enabled": true
     },
     "agent_servers": {
+        "opencode": {
+            "type": "registry"
+        },
         "codex": {
             "default_model": "gpt-5.3-codex/medium",
             "default_mode": "full-access"
