@@ -24,8 +24,8 @@
     "agent_servers": {
         "codex-acp": {
             "type": "registry",
-            "default_mode": "full-access",
-            "default_model": "gpt-5.3-codex/medium"
+            "default_mode": "default",
+            "default_model": "gpt-5.4/high"
         },
         "opencode": {
             "type": "registry"
