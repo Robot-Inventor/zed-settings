@@ -22,12 +22,13 @@
         "enabled": true
     },
     "agent_servers": {
+        "codex-acp": {
+            "type": "registry",
+            "default_mode": "full-access",
+            "default_model": "gpt-5.3-codex/medium"
+        },
         "opencode": {
             "type": "registry"
-        },
-        "codex": {
-            "default_model": "gpt-5.3-codex/medium",
-            "default_mode": "full-access"
         }
     },
     "colorize_brackets": true,
@@ -47,16 +48,16 @@
         "metrics": false
     },
     "agent": {
-        "play_sound_when_agent_done": true,
+        "show_turn_stats": true,
         "notify_when_agent_waiting": "all_screens",
-        "default_model": {
+        "play_sound_when_agent_done": true,
+        "favorite_models": [],
+        "inline_assistant_model": {
             "provider": "copilot_chat",
-            "model": "gpt-5.1-codex-max"
+            "model": "gpt-5.3-codex",
+            "enable_thinking": false
         },
-        "enabled": true,
-        "button": true,
-        "model_parameters": [],
-        "show_turn_stats": true
+        "model_parameters": []
     },
     "preview_tabs": {
         "enabled": false
