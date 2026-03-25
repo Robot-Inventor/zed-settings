@@ -109,9 +109,8 @@
     },
     "languages": {
         "Git Commit": {
-            "preferred_line_length": 9999,
             "soft_wrap": "editor_width",
-            "format_on_save": "off"
+            "formatter": "none"
         },
         "Markdown": {
             "soft_wrap": "editor_width",
