@@ -7,6 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "tabs": {
+        "file_icons": true
+    },
+    "title_bar": {
+        "show_branch_icon": true
+    },
     "semantic_tokens": "combined",
     "edit_predictions": {
         "provider": "copilot"
