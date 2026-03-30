@@ -110,7 +110,8 @@
     "languages": {
         "Git Commit": {
             "soft_wrap": "editor_width",
-            "formatter": "none"
+            // Ref: https://github.com/zed-industries/zed/issues/50263
+            "preferred_line_length": 9999
         },
         "Markdown": {
             "soft_wrap": "editor_width",
