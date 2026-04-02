@@ -48,6 +48,7 @@
     "git_panel": {
         "show_count_badge": true,
         "file_icons": true,
+        "folder_icons": true,
         "tree_view": true
     },
     "sticky_scroll": {
