@@ -18,6 +18,8 @@
         "provider": "copilot"
     },
     "project_panel": {
+        "git_status_indicator": true,
+        "diagnostic_badges": true,
         "hide_root": true,
         "bold_folder_labels": true
     },
