@@ -7,6 +7,28 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "language_models": {
+        "openai_compatible": {
+            "Z.ai": {
+                "api_url": "https://api.z.ai/api/coding/paas/v4",
+                "available_models": [
+                    {
+                        "name": "GLM-5.1",
+                        "max_tokens": 204800,
+                        "max_output_tokens": 131072,
+                        "max_completion_tokens": 131072,
+                        "capabilities": {
+                            "tools": true,
+                            "images": false,
+                            "parallel_tool_calls": false,
+                            "prompt_cache_key": false,
+                            "chat_completions": true
+                        }
+                    }
+                ]
+            }
+        }
+    },
     "tabs": {
         "file_icons": true
     },
