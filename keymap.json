@@ -19,7 +19,7 @@
         }
     },
     {
-        "context": "Editor && mode == full",
+        "context": "Pane > (Editor && mode == full)",
         "bindings": {
             "shift-enter": ["action::Sequence", ["editor::MoveToEndOfLine", ["editor::HandleInput", ";"]]],
             "alt-enter": [
