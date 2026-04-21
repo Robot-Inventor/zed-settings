@@ -152,5 +152,112 @@
         "JavaScript": {
             "language_servers": ["vtsls", "!typescript-language-server", "!tsgo", "..."]
         }
+    },
+    "theme_overrides": {
+        "Moonlight": {
+            "syntax": {
+                "property": {
+                    "color": "#A9B8E8"
+                },
+                "property.declaration": {
+                    "color": "#C3E88D"
+                },
+                "property.readonly": {
+                    "color": "#B4F9F8"
+                },
+                "property.json_key": {
+                    "color": "#7CAFFF"
+                },
+                "variable.parameter": {
+                    "color": "#FCA7EA"
+                },
+                "variable.builtin": {
+                    "color": "#FFC777"
+                },
+                "constant.builtin": {
+                    "color": "#FFC777"
+                },
+                "function.builtin": {
+                    "color": "#78DBFF"
+                },
+                "function.method": {
+                    "color": "#82AAFF"
+                },
+                "type.parameter": {
+                    "color": "#FFC777"
+                },
+                "type.enum.member": {
+                    "color": "#FFC777"
+                },
+                "module": {
+                    "color": "#C8D3F5"
+                },
+                "namespace": {
+                    "color": "#C8D3F5"
+                },
+                "keyword.modifier": {
+                    "color": "#C099FF"
+                },
+                "string.regexp": {
+                    "color": "#C3E88D"
+                }
+            }
+        }
+    },
+    "global_lsp_settings": {
+        "semantic_token_rules": [
+            {
+                "token_type": "variable",
+                "token_modifiers": ["defaultLibrary", "constant"],
+                "style": ["constant.builtin", "constant", "variable"]
+            },
+            {
+                "token_type": "variable",
+                "token_modifiers": ["defaultLibrary"],
+                "style": ["variable.builtin", "variable"]
+            },
+            {
+                "token_type": "variable",
+                "token_modifiers": ["constant"],
+                "style": ["constant", "variable"]
+            },
+            {
+                "token_type": "variable",
+                "token_modifiers": ["readonly"],
+                "style": ["constant", "property.readonly", "variable"]
+            },
+            {
+                "token_type": "variable",
+                "style": ["variable"]
+            },
+            {
+                "token_type": "parameter",
+                "token_modifiers": ["declaration"],
+                "style": ["variable.parameter", "variable"]
+            },
+            {
+                "token_type": "parameter",
+                "token_modifiers": ["definition"],
+                "style": ["variable.parameter", "variable"]
+            },
+            {
+                "token_type": "parameter",
+                "style": ["variable.parameter", "variable"]
+            },
+            {
+                "token_type": "property",
+                "token_modifiers": ["readonly"],
+                "style": ["property.readonly", "constant", "property", "variable"]
+            },
+            {
+                "token_type": "property",
+                "token_modifiers": ["declaration"],
+                "style": ["property.declaration", "property", "variable"]
+            },
+            {
+                "token_type": "property",
+                "style": ["property", "variable"]
+            }
+        ]
     }
 }
