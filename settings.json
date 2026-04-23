@@ -7,6 +7,13 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+    "outline_panel": {
+        "dock": "right"
+    },
+    "collaboration_panel": {
+        "button": false,
+        "dock": "right"
+    },
     "language_models": {
         "openai_compatible": {
             "Z.ai": {
@@ -40,12 +47,14 @@
         "provider": "copilot"
     },
     "project_panel": {
+        "dock": "right",
         "git_status_indicator": true,
         "diagnostic_badges": true,
         "hide_root": true,
         "bold_folder_labels": true
     },
     "git_panel": {
+        "dock": "right",
         "show_count_badge": true,
         "file_icons": true,
         "folder_icons": true,
@@ -85,6 +94,7 @@
         "metrics": false
     },
     "agent": {
+        "dock": "left",
         "show_turn_stats": true,
         "notify_when_agent_waiting": "all_screens",
         "play_sound_when_agent_done": "always",
