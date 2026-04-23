@@ -33,7 +33,7 @@
         "file_icons": true
     },
     "title_bar": {
-        "show_branch_icon": true
+        "show_branch_status_icon": true
     },
     "semantic_tokens": "combined",
     "edit_predictions": {
@@ -75,7 +75,11 @@
             "projects": []
         }
     ],
-    "icon_theme": "Material Icon Theme",
+    "icon_theme": {
+        "mode": "dark",
+        "light": "Material Icon Theme",
+        "dark": "Material Icon Theme"
+    },
     "telemetry": {
         "diagnostics": false,
         "metrics": false
@@ -113,7 +117,7 @@
     "ui_font_size": 16,
     "buffer_font_size": 15,
     "theme": {
-        "mode": "system",
+        "mode": "dark",
         "light": "One Light",
         "dark": "Moonlight"
     },
