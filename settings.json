@@ -8,6 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
     "code_lens": "on",
+    "cli_default_open_behavior": "existing_window",
     "outline_panel": {
         "dock": "right"
     },
