@@ -106,6 +106,12 @@
         "metrics": false
     },
     "agent": {
+        "default_model": {
+            "provider": "openai-subscribed",
+            "model": "gpt-5.5",
+            "enable_thinking": true,
+            "effort": "low"
+        },
         "use_modifier_to_send": true,
         "dock": "left",
         "show_turn_stats": true,
