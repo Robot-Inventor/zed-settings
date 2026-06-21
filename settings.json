@@ -177,13 +177,43 @@
             "tab_size": 2
         },
         "TypeScript": {
-            "language_servers": ["vtsls", "!typescript-language-server", "!tsgo", "..."]
+            "language_servers": ["!vtsls", "!typescript-language-server", "tsgo", "..."]
         },
         "TSX": {
-            "language_servers": ["vtsls", "!typescript-language-server", "!tsgo", "..."]
+            "language_servers": ["!vtsls", "!typescript-language-server", "tsgo", "..."]
         },
         "JavaScript": {
-            "language_servers": ["vtsls", "!typescript-language-server", "!tsgo", "..."]
+            "language_servers": ["!vtsls", "!typescript-language-server", "tsgo", "..."]
+        }
+    },
+    "lsp": {
+        "tsgo": {
+            "settings": {
+                "js/ts": {
+                    "inlayHints": {
+                        "parameterNames": {
+                            "enabled": "all",
+                            "suppressWhenArgumentMatchesName": false
+                        },
+                        "parameterTypes": {
+                            "enabled": true
+                        },
+                        "variableTypes": {
+                            "enabled": true,
+                            "suppressWhenTypeMatchesName": false
+                        },
+                        "propertyDeclarationTypes": {
+                            "enabled": true
+                        },
+                        "functionLikeReturnTypes": {
+                            "enabled": true
+                        },
+                        "enumMemberValues": {
+                            "enabled": true
+                        }
+                    }
+                }
+            }
         }
     },
     "global_lsp_settings": {
