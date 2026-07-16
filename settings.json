@@ -68,18 +68,22 @@
     },
     "agent_servers": {
         "codex-acp": {
+            "default_config_options": {
+                "model": "gpt-5.6-terra",
+                "reasoning_effort": "low",
+                "mode": "agent-full-access"
+            },
             "type": "registry",
             "default_mode": "default",
             "default_model": "gpt-5.4/high"
         },
         "opencode": {
             "default_config_options": {
-                "model": "zai-coding-plan/glm-5.1"
+                "effort": "high",
+                "model": "openai/gpt-5.5"
             },
             "favorite_config_option_values": {
-                "model": [
-                    "zai-coding-plan/glm-5.1"
-                ]
+                "model": ["zai-coding-plan/glm-5.1"]
             },
             "favorite_models": ["zai-coding-plan/glm-5.1"],
             "default_model": "zai-coding-plan/glm-5.1",
@@ -178,17 +182,17 @@
             "tab_size": 2
         },
         "TypeScript": {
-            "language_servers": ["!vtsls", "!typescript-language-server", "tsgo", "..."]
+            "language_servers": ["!vtsls", "!typescript-language-server", "typescript-ls", "..."]
         },
         "TSX": {
-            "language_servers": ["!vtsls", "!typescript-language-server", "tsgo", "..."]
+            "language_servers": ["!vtsls", "!typescript-language-server", "typescript-ls", "..."]
         },
         "JavaScript": {
-            "language_servers": ["!vtsls", "!typescript-language-server", "tsgo", "..."]
+            "language_servers": ["!vtsls", "!typescript-language-server", "typescript-ls", "..."]
         }
     },
     "lsp": {
-        "tsgo": {
+        "typescript-ls": {
             "settings": {
                 "js/ts": {
                     "inlayHints": {
