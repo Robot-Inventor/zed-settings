@@ -191,36 +191,6 @@
             "language_servers": ["!vtsls", "!typescript-language-server", "typescript-ls", "..."]
         }
     },
-    "lsp": {
-        "typescript-ls": {
-            "settings": {
-                "js/ts": {
-                    "inlayHints": {
-                        "parameterNames": {
-                            "enabled": "all",
-                            "suppressWhenArgumentMatchesName": false
-                        },
-                        "parameterTypes": {
-                            "enabled": true
-                        },
-                        "variableTypes": {
-                            "enabled": true,
-                            "suppressWhenTypeMatchesName": false
-                        },
-                        "propertyDeclarationTypes": {
-                            "enabled": true
-                        },
-                        "functionLikeReturnTypes": {
-                            "enabled": true
-                        },
-                        "enumMemberValues": {
-                            "enabled": true
-                        }
-                    }
-                }
-            }
-        }
-    },
     "global_lsp_settings": {
         "semantic_token_rules": [
             {
