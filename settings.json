@@ -49,19 +49,25 @@
     "edit_predictions": {
         "provider": "copilot"
     },
+    "resize_all_panels_in_dock": ["left", "right"],
     "project_panel": {
         "dock": "right",
         "git_status_indicator": true,
         "diagnostic_badges": true,
         "hide_root": true,
-        "bold_folder_labels": true
+        "bold_folder_labels": true,
+        "default_width": 250
     },
     "git_panel": {
         "dock": "right",
         "show_count_badge": true,
         "file_icons": true,
         "folder_icons": true,
-        "tree_view": true
+        "tree_view": true,
+        "default_width": 250
+    },
+    "terminal": {
+        "default_height": 200
     },
     "sticky_scroll": {
         "enabled": true
@@ -129,7 +135,9 @@
             "model": "gpt-5.3-codex",
             "enable_thinking": false
         },
-        "model_parameters": []
+        "model_parameters": [],
+        "default_width": 250,
+        "flexible": false
     },
     "preview_tabs": {
         "enabled": false
