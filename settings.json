@@ -81,19 +81,13 @@
                 "mode": "agent-full-access"
             },
             "type": "registry",
-            "default_mode": "default",
-            "default_model": "gpt-5.4/high"
+            "default_mode": "default"
         },
         "opencode": {
             "default_config_options": {
                 "effort": "high",
                 "model": "zai-coding-plan/glm-5.2"
             },
-            "favorite_config_option_values": {
-                "model": ["zai-coding-plan/glm-5.1"]
-            },
-            "favorite_models": ["zai-coding-plan/glm-5.1"],
-            "default_model": "zai-coding-plan/glm-5.1",
             "type": "registry"
         }
     },
@@ -145,7 +139,7 @@
     "minimap": {
         "show": "auto"
     },
-    "buffer_font_fallbacks": ["Noto Sans JP", "monospace"],
+    "buffer_font_fallbacks": ["Noto Sans JP"],
     "buffer_font_family": "Moralerspace Neon",
     "file_types": {
         "markdown": ["*.mdx"],
