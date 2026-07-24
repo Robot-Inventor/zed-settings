@@ -161,18 +161,19 @@
     },
     "tab_size": 4,
     "auto_install_extensions": {
+        "csharp": true,
+        "cspell": true,
+        "emmet": true,
+        "git-firefly": true,
         "html": true,
+        "markdownlint": true,
         "material-icon-theme": true,
         "moonlight": true,
-        "toml": true,
+        "processing": true,
         "rainbow-csv": true,
-        "cspell": true,
-        "markdownlint": true,
-        "csharp": true,
+        "toml": true,
         "tsgo": true,
-        "xml": true,
-        "emmet": true,
-        "processing": true
+        "xml": true
     },
     "languages": {
         "Git Commit": {
