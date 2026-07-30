@@ -68,7 +68,7 @@
         "default_width": 250
     },
     "terminal": {
-        "default_height": 200
+        "default_height": 300
     },
     "sticky_scroll": {
         "enabled": true
