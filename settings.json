@@ -47,6 +47,7 @@
     },
     "semantic_tokens": "combined",
     "edit_predictions": {
+        "allow_data_collection": "no",
         "provider": "copilot"
     },
     "resize_all_panels_in_dock": ["left", "right"],
@@ -113,6 +114,7 @@
         "metrics": false
     },
     "agent": {
+        "enable_feedback": false,
         "default_model": {
             "provider": "openai-subscribed",
             "model": "gpt-5.5",
