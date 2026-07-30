@@ -88,7 +88,7 @@
         "opencode": {
             "default_config_options": {
                 "effort": "high",
-                "model": "zai-coding-plan/glm-5.2"
+                "model": "openai/gpt-5.6-luna"
             },
             "type": "registry"
         }
@@ -118,7 +118,7 @@
         "enable_feedback": false,
         "default_model": {
             "provider": "openai-subscribed",
-            "model": "gpt-5.5",
+            "model": "gpt-5.6-luna",
             "enable_thinking": true,
             "effort": "low"
         },
