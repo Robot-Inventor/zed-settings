@@ -114,6 +114,7 @@
         "metrics": false
     },
     "agent": {
+        "single_file_review": true,
         "enable_feedback": false,
         "default_model": {
             "provider": "openai-subscribed",
