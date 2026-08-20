@@ -135,7 +135,8 @@
         },
         "model_parameters": [],
         "default_width": 250,
-        "flexible": false
+        "flexible": false,
+        "expand_terminal_card": false
     },
     "preview_tabs": {
         "enabled": false
