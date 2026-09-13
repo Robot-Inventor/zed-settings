@@ -60,11 +60,11 @@
         "default_width": 250
     },
     "git_panel": {
+        "folder_indicator": "icon",
         "group_by": "staging",
         "dock": "right",
         "show_count_badge": true,
         "file_icons": true,
-        "folder_icons": true,
         "tree_view": true,
         "default_width": 250
     },
@@ -87,8 +87,9 @@
         },
         "opencode": {
             "default_config_options": {
-                "effort": "high",
-                "model": "openai/gpt-5.6-luna"
+                "mode": "build",
+                "effort": "max",
+                "model": "zai-coding-plan/glm-5.3-flash"
             },
             "type": "registry"
         }
