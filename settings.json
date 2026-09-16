@@ -40,7 +40,8 @@
         }
     },
     "tabs": {
-        "file_icons": true
+        "file_icons": true,
+        "show_diagnostics": "all"
     },
     "title_bar": {
         "show_branch_status_icon": true
