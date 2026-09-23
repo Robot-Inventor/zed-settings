@@ -137,6 +137,7 @@
         },
         "model_parameters": [],
         "default_width": 250,
+        "threads_sidebar_default_width": 250,
         "flexible": false,
         "expand_terminal_card": false
     },
