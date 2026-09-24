@@ -76,6 +76,14 @@
         "enabled": true
     },
     "agent_servers": {
+        "OpenCode v2": {
+            "type": "custom",
+            "command": "opencode",
+            "args": ["acp"],
+            "env": {
+                "OPENCODE_ENABLE_PARALLEL": "1"
+            }
+        },
         "codex-acp": {
             "default_config_options": {
                 "fast-mode": false,
